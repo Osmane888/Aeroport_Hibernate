@@ -1,0 +1,8 @@
+Reproduire la db de l'aeroport avec des entités jpa/hibernate dans un nouveau projet avec une nouvelle db
+
+Toutes entité dois contenir un contrainte d'unicité (si pas possible avec les column actuel, reflechir a ajouter un champ censé)
+Ne pas faire de relation bidirectionel
+
+Bonus:
+  (recherche perso) faire en sorte que toutes les entités ai un champ id un champ created_at et updated_at auto generer
+  faire des repo (si possible basé sur un repo générique )
