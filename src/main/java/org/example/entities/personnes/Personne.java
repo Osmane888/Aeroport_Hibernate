@@ -9,6 +9,7 @@ import jakarta.persistence.*;
                 columnNames = {"firstname","lastname"}
                 )}
         )
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class Personne {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)

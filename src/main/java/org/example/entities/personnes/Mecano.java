@@ -1,4 +1,7 @@
 package org.example.entities.personnes;
 
-public class Mecano {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Mecano extends Personne{
 }

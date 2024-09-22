@@ -1,4 +1,9 @@
 package org.example.entities.personnes;
 
-public class Proprio {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Proprio extends Personne{
+
+
 }
